@@ -14,6 +14,6 @@ def prime?(number)
       end
     end
     array
-    binding.pry
   end
+  array.length != 0 ? false : true
 end
