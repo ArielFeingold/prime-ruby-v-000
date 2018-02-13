@@ -5,8 +5,8 @@ def prime?(number)
     false
   else
     f = 2
+    array = []
     while f < number do
-      array = []
       if number % f == 0
         array << f
         f += 1
