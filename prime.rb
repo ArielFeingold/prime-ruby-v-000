@@ -2,7 +2,7 @@ require 'pry'
 
 def prime?(number)
   if number < 2
-    false
+    return false
   else
     f = 2
     array = []
