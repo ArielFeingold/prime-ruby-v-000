@@ -3,6 +3,7 @@ require 'pry'
 def prime?(number)
   if number < 2
     return false
+      binding.pry
   else
     f = 2
     array = []
@@ -15,6 +16,5 @@ def prime?(number)
     end
     array
   end
-  binding.pry
   array.length != 0 ? false : true
 end
