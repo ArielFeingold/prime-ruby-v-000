@@ -10,11 +10,11 @@ def prime?(number)
       if number % f == 0
         array << f
         f += 1
+          binding.pry
       else f += 1
       end
     end
     array
   end
-  binding.pry
   array.length != 0 ? false : true
 end
