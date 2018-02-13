@@ -3,7 +3,7 @@ require 'pry'
 def prime?(number)
   if number < 2
     return false
-      binding.pry
+      # binding.pry
   else
     f = 2
     array = []
