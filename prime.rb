@@ -1,3 +1,5 @@
+require 'pry'
+
 def prime?(number)
   if number < 2
     false
@@ -13,5 +15,6 @@ def prime?(number)
     end
     array
   end
+  binding.pry
   array.length != 0 ? false : true
 end
